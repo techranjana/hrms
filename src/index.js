@@ -1,19 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Apipage from '../src/Apipage';
-  import Ragistration from './Ragistration'; import Login from './Login';
-   import Forgetpassword from './Forgetpassword';
+
+
+import DummyApi from './DummyApi';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */} 
-     <Ragistration/> 
-  <Login/>
-  <Forgetpassword/>
-  {/* <Apipage/> */}
+   <DummyApi/>
   </React.StrictMode>
 );
 
