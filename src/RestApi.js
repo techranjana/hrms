@@ -6,14 +6,13 @@ async function getPostsData(url) {
              console.log(result); 
         }
         
-        function DummyApi() {
-
+        function RestApi() {
                  const [count, setCount] = useState(0);
                  const [count1, setCount1] = useState(0);
                 
                   const [posts, setPosts] = useState([]);
                  useEffect(()=>{
-                     let url = "https://dummyjson.com/products";
+                     let url = "https://jsonplaceholder.typicode.com/comments";
                       getPostsData(url);
                      
                  
@@ -22,6 +21,5 @@ async function getPostsData(url) {
                    return (
                      <h1> Get Api call check</h1>
                       
-                    );
-                  }
-export default DummyApi;
+                    );}
+export default RestApi;

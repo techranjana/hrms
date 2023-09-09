@@ -4,13 +4,12 @@ import ReactDOM from 'react-dom/client';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
-import DummyApi from './DummyApi';
+import RajGetApi from './RajGetApi'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */} 
-   <DummyApi/>
+   <RajGetApi/>
   </React.StrictMode>
 );
 
